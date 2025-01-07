@@ -1,0 +1,23 @@
+/* General styling for the home container */
+.home {
+    width: 100%; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    font-size: 24px; /* Font size for the text */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center align the text */
+    background: rgb(238, 174, 202); /* Fallback background color */
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    ); /* Radial gradient background */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    gap: 20px; /* Add spacing between children */
+}
+
+h1{
+    color: white;
+}
