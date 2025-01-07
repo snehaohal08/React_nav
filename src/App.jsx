@@ -1,4 +1,4 @@
-// import "./App.css";
+
 import React from 'react';
 import Contact from "./componenets/contact";
 import Home from "./componenets/Home";
